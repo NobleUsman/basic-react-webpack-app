@@ -5,13 +5,15 @@
 - You can refer [this great article](https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/?utm_source=pocket_mylist) to follow the guide, but as the code was outdated, I had to figure things out, and you might probably too
 - The steps I have followed from the guide are same except from the app folder structure, which plays an important role in messing things up in your config at your first try
 
-## Pre-requisites:
+## Pre-requisites
+
 - basic understanding of how JS works in a browser, and in node
 - knowing what is [**npm**](https://www.freecodecamp.org/news/what-is-npm-a-node-package-manager-tutorial-for-beginners/?utm_source=pocket_mylist) (node package manager)
 - understanding of [**modules**](https://javascript.info/modules-intro?utm_source=pocket_mylist) in js
-- installed latest node
+- installed latest node. Node helps manage dependencies
 
-## Steps:
+## Steps
+
 - Initialize the project. It will create a `package.json` file
   - `npm init`
 - Install the **dependencies** (packages which are required for running the project)
