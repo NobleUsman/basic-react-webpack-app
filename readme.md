@@ -15,14 +15,15 @@
 ## Steps
 
 - Initialize the project. It will create a `package.json` file
-  - `npm init`
+  - **`npm init`**
 - Install the **dependencies** (packages which are required for running the project)
-  - `npm i react react-dom`
+  - **`npm i react react-dom`**
 - Install the **devDependencies** (packages which are required for developing and building the project). Make sure to use **`--save-dev`** flag.
   - bundler devDependencies :
-    - `npm i webpack webpack-dev-server webpack-cli html-webpack-plugin --save-dev`
-  - transpiler dependencies :
-    - `npm i babel-core babel-loader @babel/preset-react @babel/preset-env --save-dev`
+    - **`npm i webpack webpack-dev-server webpack-cli html-webpack-plugin --save-dev`**
+  - transpiler devDependencies :
+    - **`npm i babel-core babel-loader @babel/preset-react @babel/preset-env --save-dev`**
+    - **NOTE :** Nowadays, babel needs its `@babel/core` package installed as a dependency, so you'll have to do that or else you'll be stuck with that error
 - You can check the `package.json` file updates on each install automatically as node handles that
 - Setup the `webpack.config.js` file.
   - The article mentioned above gives a clear explanation of the config.
