@@ -31,6 +31,5 @@
   - source maps are great for debugging and are enabled by default on `create-react-app`
 - Setup an `index.html` file with a `<div id=root></div>` inside `<body></body>`
 - Setup some react code: `index.js` & `App.js`
-- Add the necessary scripts in the `package.json`
-  - the article also gives a good explanation on this
+- Add the necessary npm scripts in the `package.json`. The article also gives a good explanation on this
 - PLAY AND TINKER...
