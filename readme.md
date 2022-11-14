@@ -29,7 +29,7 @@
   - The article mentioned above gives a clear explanation of the config.
   - In my setup, I have tweaked some paths and added a new property `devtool` for [source maps](https://survivejs.com/webpack/building/source-maps/?utm_source=pocket_mylist)
   - source maps are great for debugging and are enabled by default on `create-react-app`
-- Setup an `index.html` file with a `<div id=root></div>` inside `<body></body>`
+- Setup an `index.html` file with a `<div id="root"></div>` inside `<body></body>`
 - Setup some react code: `index.js` & `App.js`
 - Add the necessary npm scripts in the `package.json`. The article also gives a good explanation on this
 - PLAY AND TINKER...
